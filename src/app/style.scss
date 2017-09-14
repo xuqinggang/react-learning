@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.box { 
+    width: 50px;
+    height: 40px;
+    background: red;
+    display: inline-block;
+    vertical-align: middle;
+    /* size, color, etc. */ }
+.tall-box {
+    width: 20px;
+    margin-right: 10px;
+    height: 100px;
+}
+.short-box {
+    width: 20px;
+    height: 40px;
+}
+.tall-box,
+.short-box   { 
+    background: black;
+    display: inline-block;
+    /* size, color, etc. */ }
+
+    .text-bottom { vertical-align: text-bottom; }
+    .text-top    { vertical-align: text-top; }
+.icon {
+    width: 40px;
+    height: 40px;
+    background: red;
+}
+.icon   { display: inline-block;
+    /* size, color, etc. */ }
+
+    .middle { vertical-align: middle; }
+.ctn-block{
+    display: block;
+    background-color: #bbb;
+    line-height: 200px;
+    font-size: 50px;
+}
+.ctn-block .child1{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin:10px 0;
+    vertical-align: baseline;
+    background-color: aliceblue;
+}
+div.test21{
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    border:1px solid red;
+    display: inline-block;
+}
+.align{
+/*    vertical-align: top;*/
+}
+.test2-wrap {
+    font-size: 14px;
+    line-height:12px;
+}
+.left {
+    display: inline-block;
+    display: inline-block;
+    /* vertical-align: bottom; */
+    // overflow: hidden;
+    white-space: nowrap;
+}
+.right {
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    margin-left: 6px;
+    border: 1px solid #ff6c45;
+}
+.money-icon {
+    font-family: Roboto Condensed,sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.money-price {
+    font-size: 18px;
+    line-height: 18px;
+}
+.info-type {
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    margin-left: 6px;
+    border: 1px solid #ff6c45;
+}
+.wrap {
+    border: 1px solid red;
+}
+.inner {
+    border: 1px solid blue;
+}
+.test {
+    border: 1px solid red;
+}
